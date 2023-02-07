@@ -1,0 +1,64 @@
+/* https://yvile123.github.io/love-travel_demo/?fbclid=IwAR1QgYHS2AmzpKBkfhcwE_0EG-5MLVSoy1BgJnjeiAaXXPu_mcmpaao2GFU */
+/* https://github.com/yvile123/love-travel_demo/blob/main/assets/css/responsive.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    scroll-behavior: smooth;
+    font-family: "Open Sans", sans-serif;
+}
+
+:root {
+    --text-color: #555;
+    --white-color: #fff;
+    --black-color: #000;
+    --yellow-color: #ffd205;
+    --pink-color: #f76570;
+    --purple-color: #c780fa;
+    --blue-color: #14b9d5;
+    --green-color: #1bbc9b;
+    --orange-color: #f3a46b;
+    --9a-color: #9a9a9a;
+    --header-height: 104px;
+}
+
+h4 {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+ul {
+    list-style: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        right: -200px;
+    }
+    to {
+        opacity: 1;
+        right: 0;
+    }
+}
+
+.background--yellow {
+    background-color: var(--yellow-color);
+}
+
+.background--pink {
+    background-color: var(--pink-color);
+}
+
+.background--purple {
+    background-color: var(--purple-color);
+}
